@@ -1,0 +1,13 @@
+https://www.petanikode.com/slim-api/
+
+
+Rute	        Metode	Parameter	    Keterangan
+/books/	        GET	    key	            Untuk mengambil semua buku
+/books/1	    GET	    key	            Untuk menampilkan 1 buku berdasarkan id
+/books/serach	GET	    key, keyword	Untuk mencari buku
+/books	        POST	key	            Untuk menambahkan buku baru
+/books/1	    PUT	    key	            Untuk mengedit data buku
+/books/1	    DELETE	key	            Untuk menghapus buku
+
+contoh:
+https://localhost/books/serach?key=123&keyword=bukuphp
