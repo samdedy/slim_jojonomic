@@ -24,5 +24,10 @@ return [
             'dbname' => 'test',
             'driver' => 'mysql',
         ],
+
+        // JWT
+        'jwt' => [
+            'secret' => 'supersecretkeyyoushouldnotcommittogithub'
+        ]
     ],
 ];
